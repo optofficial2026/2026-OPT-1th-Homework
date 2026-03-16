@@ -1,7 +1,5 @@
-# 2026-OPT-1th-Homework 
+# OPT 1st Generation Repository (2026)
 
-2026 OPT 1th repository 
+We focus on fundamental AI skills.
 
-We study basis AI skills 
-
-This repository manages our assignments
+This repository contains our weekly assignments and projects.
