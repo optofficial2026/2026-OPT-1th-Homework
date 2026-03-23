@@ -31,3 +31,22 @@
 1. Which regularization technique (Dropout vs BatchNorm) gave the bigger improvement over the baseline? Why do you think so?
 2. Compare the training curves (loss & accuracy) of the baseline vs. your best model. What differences do you observe regarding overfitting?
 3. Based on your Grad-CAM visualizations from Task 5, which model (Baseline vs BatchNorm) focuses on more task-relevant image regions? How might this relate to their accuracy difference?
+
+
+#### 1. BatchBorm이 훨씬 더 나은 성능 개선을 가져다준다. dropout보다 loss도 더 적게 나오고, 더 높은 accuracy도 나오기 때문이다. 
+
+#### 2. training curves compare (Baseline vs. Best)
+
+##### Baseline
+- loss가 빠르게 떨어지고 accuracy가 빠르게 오른다.
+- 이는 overfitting의 여지가 존재한다.
+
+##### Best
+- loss가 천천히 떨어지고 accuracy도 천천히 오른다.
+- train set에 너무 의존해서 학습하지 않아 overfit이 낮고 generalization이 좋다.
+
+#### 3. Batchnorm 모델의 attention이 훨씬 더 좋게 나온다.
+
+
+
+
