@@ -22,3 +22,12 @@
 ###### BatchNorm이 feature를 더 안정적으로 학습해서 heatmap이 훨씬 더 잘 잡힌다.
 
 #### 4. cat의 경우 압도적으로 BatchNorm에서 attention이 훨씬 더 잘 잡혔다. plane의 경우도 비행기 전체 구조를 따라 BatchNorm에서 잘 잡혔다. ship의 경우, 둘 다 애매하다고 말할 수 있다.
+
+
+
+
+### 6-3. Questions (Answer in text cells below)
+
+1. Which regularization technique (Dropout vs BatchNorm) gave the bigger improvement over the baseline? Why do you think so?
+2. Compare the training curves (loss & accuracy) of the baseline vs. your best model. What differences do you observe regarding overfitting?
+3. Based on your Grad-CAM visualizations from Task 5, which model (Baseline vs BatchNorm) focuses on more task-relevant image regions? How might this relate to their accuracy difference?
