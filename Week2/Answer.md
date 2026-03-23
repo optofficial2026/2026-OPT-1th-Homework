@@ -24,7 +24,7 @@
 #### 4. cat의 경우 압도적으로 BatchNorm에서 attention이 훨씬 더 잘 잡혔다. plane의 경우도 비행기 전체 구조를 따라 BatchNorm에서 잘 잡혔다. ship의 경우, 둘 다 애매하다고 말할 수 있다.
 
 
-
+--------------------------------------------------------
 
 ### 6-3. Questions (Answer in text cells below)
 
